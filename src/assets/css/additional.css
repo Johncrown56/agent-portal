@@ -1,0 +1,343 @@
+@import url('./mtn-theme.css');
+.btn-top {
+    top: 100px;
+}
+
+.border-radius-60 {
+    border-radius: 60% !important;
+  }
+
+.font-size-50{
+      font-size: 1.1rem;
+  }
+
+.font-size-25 {
+    font-size: 0.70rem;
+}
+.font-size-15 {
+    font-size: 0.55rem;
+}
+.font-size-40 {
+    font-size: 0.90rem !important;
+}
+.font-size-35 {
+    font-size: 0.75rem !important;
+}
+ .space-top-md-1 { 
+     padding-top: 1rem !important;
+}
+.space-bottom-md-1 { 
+    padding-bottom: 1rem !important;
+}
+
+.margin-top-minus-4{
+margin-top: -4rem;
+}
+
+.margin-top-minus-45{
+    margin-top: -4.5rem;
+    }
+
+.btn-black-hover:hover {
+    color: #000000 !important;
+    text-decoration: none;
+  }
+
+.toggle-switch-sm .toggle-switch-label{
+    width:2.5rem;
+    height:1.6125rem
+}
+.toggle-switch-sm .toggle-switch-indicator{
+    width:1.20938rem;
+    height:1.20938rem
+}
+.toggle-switch-sm .toggle-switch-input:checked+.toggle-switch-label .toggle-switch-indicator{
+    -webkit-transform:translate3d(.81094rem,50%,0);
+    transform:translate3d(.81094rem,50%,0)
+}
+
+.border-bottom-yellow{
+    border-bottom: 0.0625rem solid #fc0 !important;
+}
+
+.border-bottom-black{
+    border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.toggle-switch-input.is-valid+.toggle-switch-label{
+    background-color:#00c9a7;
+}
+.toggle-switch-input.is-black+.toggle-switch-label:checked{
+    background-color:#000000;
+}
+
+.toggle-switch-input.is-black:checked + .toggle-switch-label{
+    background-color:#000000;
+}
+
+.toggle-switch-input.is-blue:checked + .toggle-switch-label{
+    background-color:#0f6987;
+}
+
+.no-border{
+    border: 0 !important;
+}
+
+.mt-12{
+    margin-top: 5.5rem;
+}
+.mt-13{
+    margin-top: 6rem;
+}
+.mt-14{
+    margin-top: 6.5rem;
+}
+.mt-15{
+    margin-top: 7rem;
+}
+.mt-16{
+    margin-top: 7.5rem;
+}
+.search-height-1{
+    height: calc(1.6em + 0.925rem) !important;
+}
+
+.box-shadow-2{
+    box-shadow: 0px 2px 15px rgb(140 152 164 / 10%) !important;
+}
+
+.card-body-height{
+    height:21.25rem;
+    overflow:hidden;
+    overflow-y:auto
+}
+.card-body-height::-webkit-scrollbar{
+    width:.6125rem
+}
+.card-body-height::-webkit-scrollbar-thumb{
+    background-color:rgba(189,197,209,.6)
+}
+.font-size-sm{
+    /* font-size:.8125rem */
+    font-size: 0.875rem;
+}
+
+.font-family-light {
+    font-family: MTNBrighterSans-Light,Century Gothic,Arial,sans-serif !important;
+}
+
+.slick-center-mode-right {
+    margin-right: calc(-1px - ((50vw - 100%) / 2) + 16px) !important;
+}
+
+.line-height-16{
+    line-height: 1.6;
+}
+
+.min-h-170rem {
+    min-height: 14rem;
+    max-height: 13rem
+}
+
+.pad-25{
+    padding: 0.5rem 2.40rem !important;
+}
+
+.pad-28{
+    padding: 0.5rem 2.28rem !important;
+}
+
+.bg-mtn-soft-yellow{
+    background-color:#FFF591 !important;
+}
+
+.bg-mtn-momo{
+    background-color:#00678F !important;
+}
+
+.e-centre-box{
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.bg-yellow{
+    background-color: #fc0;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
+.text-yellow{
+    color: #fc0 !important;
+}
+
+.avatar-md {
+    width: 4.25rem;
+    height: 3.25rem;
+}
+
+.btn-outline-primary:hover{
+color: #000000 !important;
+}
+
+.primary-hover{
+    color: #000000 !important;  
+}
+
+.primary-hover:hover{
+    color: #000000 !important;  
+}
+
+.border-radius-6{
+    border-radius: 6.1875rem !important;
+}
+
+.cp-25 {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+}
+
+.overflow-x-auto{
+    overflow-x: auto;
+}
+
+.img-button{
+    background: url(../svg/mtn/Search-icon.png) 1px 1px no-repeat;
+    background-size: contain;
+    padding: 10px 1px 10px 16px;
+    border: none;
+}
+
+.oval-shape-centered-y {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.oval-shape {
+    z-index: 1;
+    line-height: 0;
+    display: inline-block;
+    color: #fc0;
+    background-color: #fff;
+    width: 2.6875rem;
+    height: 2.6875rem;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #fc0;
+}
+
+.oval-shape::before {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.oval-shape:not(.slick-disabled):hover {
+    color: #fff;
+    background-color: #fc0;
+}
+
+a.text-black {
+    color: #000000 !important;
+  }
+
+a.text-black:hover {
+    color: #1e2022 !important;
+  }
+
+  .card-header-borderless .card-header{
+    border-width:0;
+    padding-bottom:0
+}
+.card-body-height{
+    height:21.25rem;
+    overflow:hidden;
+    overflow-y:auto
+}
+
+.card-sm>.card-body,.card-sm>.collapse .card-body{
+    padding:1rem 1rem
+}
+.card-sm .card-table td,.card-sm .card-table th{
+    padding-right:1rem;
+    padding-left:1rem
+}
+
+
+#button{
+    display:block;
+    margin:20px auto;
+    padding:10px 30px;
+    background-color:#eee;
+    border:solid #ccc 1px;
+    cursor: pointer;
+  }
+  #overlay{	
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+  }
+  .cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #ffcc00 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+  }
+  @keyframes sp-anime {
+    100% { 
+      transform: rotate(360deg); 
+    }
+  }
+  .is-hide{
+    display:none;
+  }
+  
+  
+.hs-form-search-menu-content{
+    position:absolute;
+    display:block!important;
+    opacity:0;
+    pointer-events:none
+}
+.hs-form-search-menu-hidden{
+    display:none!important;
+    opacity:0;
+    visibility:hidden
+}
+.hs-form-search-menu-initialized{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto
+}
+
+.dropdown-item:active {
+    color: #1e2022;
+    background-color: rgba(189,197,209,.3);
+}
+
+.egain-response-body a:hover{
+    text-decoration: none;
+    background-color: #ffcc00 !important;
+}

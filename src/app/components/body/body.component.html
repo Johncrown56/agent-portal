@@ -1,0 +1,35 @@
+<div class="container space-2">
+    <div class="row">
+      <div class="col-lg-2 z-index-2" id="toolboxAccordion">        
+      <app-toolbox></app-toolbox>
+      </div>
+
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-6">
+        <div class="mb-8">
+          <!-- Nav -->
+          <div class="text-center">
+            <ul class="nav nav-segment nav-pills scrollbar-horizontal mb-7" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="updated-articles-tab" data-toggle="pill" href="#updated-articles" role="tab" aria-controls="updated-articles" aria-selected="true">What's Changed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="new-articles-tab" data-toggle="pill" href="#new-articles" role="tab" aria-controls="new-articles" aria-selected="false">What's New</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Nav -->
+          <!-- Tab Content -->
+          <app-home-tab></app-home-tab>
+          <!-- End Tab Content -->
+        </div>
+        <!-- Sticky Block End Point -->
+        <div id="stickyBlockEndPoint"></div>
+      </div>
+
+      <div class="col-lg-3">
+        <app-trending></app-trending>
+      </div>
+    </div>
+  </div>

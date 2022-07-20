@@ -1,0 +1,38 @@
+<div class="" style="margin-top: -5rem;">
+    <div class="container space-1 space-top-md-0">
+      <div class="mx-lg-auto">
+        <div class="text-center justify-content-center ml-10">
+          <div class="mtn-btn-group__floating">
+            <div class="mtn-btn-group__2-col">
+            <button id="" onclick="window.open('experience-center', '_self')" type="default" class="mtn-btn mtn-btn--text-left-icon mtn-btn--skin-white mtn-btn--square-icon-desktop mr-8">
+            <img src="./assets/svg/mtn/experience-centre.svg" class="w-100">
+                <span class="btn-text font-weight-bolder btn-top">My Experience <br> Center</span>
+              </button>
+
+              <button id="" onclick="window.open('mtn-academy', '_self')" type="default" class="mtn-btn mtn-btn--text-left-icon mtn-btn--skin-white mtn-btn--square-icon-desktop mr-8">
+            <img src="./assets/svg/mtn/graduation-cap.svg" class="w-100">
+                <span class="btn-text font-weight-bolder btn-top">MTN <br> Academy</span>
+              </button>
+        
+              <button *ngFor="let t of bannerTopics; let i = index;" id=""  (click)="goToArticle(t.topic.id)" type="default" class="mtn-btn mtn-btn--text-left-icon mtn-btn--skin-white mtn-btn--square-icon-desktop mr-8">
+                <!-- <i class="mtn-icon mtn-icon-mymtn text-c-yellow btn-icon"></i> -->
+                <img src="{{t.topic.imageUrl}}" alt="" class="w-100" style="height: 50px;">
+                <span class="btn-text font-weight-bolder btn-top">{{t.topic.name}}</span>
+              </button>
+
+              <button id="" onclick="window.open('guided-help','_blank')" type="default" class="mtn-btn mtn-btn--text-left-icon mtn-btn--skin-white mtn-btn--square-icon-desktop mr-8">
+                <img src="./assets/svg/mtn/mtnboticon.png" class="w-100">
+                <span class="btn-text font-weight-bolder btn-top">Guided <br> Help </span>
+              </button>
+              <button id="" *ngFor="let t of bannerTopics2; let i = index;" (click)="goToArticle(t.topic.id)" type="default" class="mtn-btn mtn-btn--text-left-icon mtn-btn--skin-white mtn-btn--square-icon-desktop mr-8">
+                <img src="{{t.topic.imageUrl}}" alt="" class="w-100" style="height: 50px;">
+                <span class="btn-text font-weight-bolder btn-top">{{t.topic.name}}</span>
+              </button>              
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

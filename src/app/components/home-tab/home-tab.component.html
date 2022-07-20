@@ -1,0 +1,103 @@
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="updated-articles" role="tabpanel" aria-labelledby="updated-articles-tab">
+
+      <!-- Articles Section -->
+      <div class="container">
+
+          <div class="row">
+
+              <div class="col-lg-12 mb-3 mb-lg-3" *ngFor="let a of changeArticles; let i = index">
+                <!-- Card -->
+                <article class="card card-bordered h-100">
+                  <div class="w-sm-100 p-4">
+                    <a class="text-dark" href="{{articleDir}}/{{a.id}}/{{clean_and_hyphenate(a.name)}}">
+                    <span class="font-weight-bold font-size-50 text-dark">{{a.name}}</span>
+                    </a>
+                    <hr class="my-0 border-top">
+                    <div class="mb-4">
+                      <p class="font-weight-bold text-dark font-size-1">{{a.description}}</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <ul class="list-inline font-size-1 mt-3">
+                          <li class="list-inline-item text-dark">
+                            <i class="far fa-clock text-dark mr-1"></i>{{a.createdDate | date}}.
+                          </li>
+                          <li class="list-inline-item text-dark">
+                            <i class="far fa-eye text-dark mr-1"></i> 801 views
+                          </li>
+                          <li class="list-inline-item text-dark">
+                            <i class="fas fa-thumbs-up text-dark mr-1"></i>675
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 mt-2">
+                        <a class="btn btn-xs btn-soft-primary border-radius-60 transition-3d-hover float-right" href="{{articleDir}}/{{a.id}}/{{clean_and_hyphenate(a.name)}}">
+                          <i class="fas fa-angle-right font-size-1"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!-- End Card -->
+              </div>
+
+          </div>
+        <!-- else condition -->
+          <!-- <div>
+            <p class="text-dark text-center">No updated articles available</p>
+          </div> -->
+        
+      </div>
+      <!-- End Articles Section -->
+    </div>
+
+    <div class="tab-pane fade" id="new-articles" role="tabpanel" aria-labelledby="new-articles-tab">
+      <!-- Articles Section -->
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 mb-3 mb-lg-3" *ngFor="let a of newArticles; let i = index">
+                <!-- Card -->
+                <article class="card card-bordered h-100">
+                  <div class="w-sm-100 p-4">
+                  <a class="text-dark" href="{{articleDir}}/{{a.id}}/{{clean_and_hyphenate(a.name)}}">
+                    <span class="font-weight-bold font-size-50 text-dark">{{a.name}}</span>
+                    </a>
+                    <hr class="my-0 border-top">
+                    <div class="mb-4">
+                      <p class="font-weight-bold text-dark font-size-1">{{a.description}}</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <ul class="list-inline font-size-1 mt-3">
+                          <li class="list-inline-item text-dark">
+                            <i class="far fa-clock text-dark mr-1"></i>{{a.createdDate | date}}.
+                          </li>
+                          <li class="list-inline-item text-dark">
+                            <i class="far fa-eye text-dark mr-1"></i> 801 views
+                          </li>
+                          <li class="list-inline-item text-dark">
+                            <i class="fas fa-thumbs-up text-dark mr-1"></i>675
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-4 mt-2">
+                        <a class="btn btn-xs btn-soft-primary border-radius-60 transition-3d-hover float-right" href="{{articleDir}}/{{a.id}}/{{clean_and_hyphenate(a.name)}}">
+                          <i class="fas fa-angle-right font-size-1"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <!-- End Card -->
+              </div>
+          </div>
+        <!-- else condition -->
+          <!-- <div class="text-center">
+            <p class="text-dark">No new articles available</p>
+          </div> -->
+        
+      </div>
+      <!-- End Articles Section -->
+    </div>
+  </div>

@@ -26,10 +26,41 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [              
+              "./src/assets/vendor/fontawesome/css/all.min.css",
+              "./src/assets/vendor/dzsparallaxer/dzsparallaxer.css",
+              "./src/assets/vendor/cubeportfolio/css/cubeportfolio.min.css",
+              "./src/assets/vendor/slick-carousel/slick/slick.css",
+              "./src/assets/vendor/quill/dist/quill.snow.css",
+              "./src/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.css",
+              "./src/assets/css/theme.css",
+              "./src/assets/css/additional.css",
+              "./src/assets/css/navbar.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./src/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js",
+              "./src/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js",              
+              
+              "./src/assets/vendor/jquery-validation/dist/jquery.validate.min.js",
+              "./src/assets/vendor/hs-header/dist/hs-header.min.js",
+              "./src/assets/vendor/hs-go-to/dist/hs-go-to.min.js",
+              "./src/assets/vendor/hs-unfold/dist/hs-unfold.min.js",
+              "./src/assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js",
+              "./src/assets/vendor/hs-toggle-switch/dist/hs-toggle-switch.min.js",
+              "./src/assets/vendor/aos/dist/aos.js",
+              
+              "./src/assets/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside.min.js",
+              "./src/assets/vendor/slick-carousel/slick/slick.js",
+              "./src/assets/vendor/hs-video-player/dist/hs-video-player.min.js",
+              "./src/assets/vendor/quill/dist/quill.min.js",
+              "./src/assets/vendor/hs-file-attach/dist/hs-file-attach.min.js",
+              "./src/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.js",
+              "./src/assets/vendor/hs-form-search/dist/hs-form-search.min.js", 
+
+              "./src/assets/js/theme.min.js"
+            ]
           },
           "configurations": {
             "production": {

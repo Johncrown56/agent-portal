@@ -1,0 +1,89 @@
+<div id="stickyBlockStartPoint" class="">
+    <!-- Card -->
+    <div class="card card-bordered checkTurboUrl('bg-mtn-soft-yellow', 'bg-mtn-momo') ">
+      <div class="card-body p-3">
+        <div class="border-bottom">
+          <b class="checkTurboUrl('text-dark', 'text-white') ">Trending</b>
+        </div>
+        <div class="mb-5 mt-3">
+          <!-- Nav -->
+          <div class="text-center">
+            <ul class="nav nav-segment2 nav-pills scrollbar-horizontal mb-1" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link checkHomeUrl('pad-25', 'pad-28')  active" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab" aria-controls="pills-two-code-features-example1" aria-selected="false">Most Viewed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link checkHomeUrl('pad-25', 'pad-28') " id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab" aria-controls="pills-one-code-features-example1" aria-selected="true">Super Staff</a>
+              </li>
+              
+            </ul>
+          </div>
+          <!-- End Nav -->
+  
+          <!-- Tab Content -->
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="pills-two" role="tabpanel" aria-labelledby="pills-two">
+              <div class="mb-3">
+                <b class="checkTurboUrl('text-dark', 'text-white')  font-weight-bold font-size-25">Most Viewed Content of the month</b>
+              </div>
+
+  
+                  <a *ngFor="let a of articles; let i = index;" href="articleDir . '/' . $value->id . '/' . clean_and_hyphenate($value->name) ?>" target="self">
+                    <dl class="row font-size-1 mt-1">
+                      <dt class="col-sm-2 pr-0 mb-2 mb-sm-0"><b class="font-size-25 checkTurboUrl('text-dark', 'text-white') ">1. </b></dt>
+                      <dd class="col-sm-10 pl-0 checkTurboUrl('text-dark', 'text-white') ">
+                        <b class="font-size-25 font-weight-bold pr-0 mb-0">Name</b> 
+                        <span>&nbsp;</span> 
+                        <!-- if image exist condition -->
+                        <img src="topicImg " style="width: 20px; height: 20px;">                        
+                        
+                        <br>
+                        <small class="mb-0">description</small>
+                      </dd>
+                    </dl>
+                  </a>
+
+                  <!-- else condition -->
+                <!-- <div class="text-center">
+                  <b class="checkTurboUrl('text-dark', 'text-white') font-size-25">No articles available</b>
+                </div> -->
+  
+            </div>
+            <div class="tab-pane fade" id="pills-one" role="tabpanel" aria-labelledby="pills-one">
+  
+              <div class="mb-3">
+                <b class="checkTurboUrl('text-dark', 'text-white') font-weight-bold font-size-25">Top Performing Agents for the month</b>
+              </div>
+  
+                <dl class="row font-size-1">
+                  <dt class="col-sm-4 mb-2 mb-sm-0">
+                    <figure class="max-w-8rem w-100">
+                      <img class="avatar avatar-lg avatar-circle" src="assets/images/pics/demo.png" alt="demo">
+                    </figure>
+                  </dt>
+                  <dd class="col-sm-8 checkTurboUrl('text-dark', 'text-white') ">
+                    <b class="font-size-25 mb-0">name </b><br>
+                    <b class="font-size-25 mb-0">team Team</b><br>
+                    <b class="font-size-25 mb-0">CC | location </b><br>
+                    <a href="javascript:;"><span class="badge badge-primary badge-pill text-dark">Drop a message &nbsp;
+                        <i class="fas fa-envelope text-dark"></i></span>
+                    </a>
+                  </dd>
+                </dl>
+  
+              
+              <!-- else condition -->
+              <!-- <div>
+                  <p class="font-size-1 text-center text-white">No results yet.</p>
+                </div> -->               
+  
+            </div>
+  
+            
+          </div>
+          <!-- End Tab Content -->
+        </div>
+      </div>
+    </div>
+    <!-- End Card -->
+  </div>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "text": "MTN MiFi <br>Device ",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/hynet.png",
+        "url": ""
+    },
+    {
+        "id": 2,
+        "text": "MTN Smart Feature phone",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/smart-feature-phone-black-front.png",
+        "url": "video"
+    },
+    {
+        "id": 3,
+        "text": "MTN HynetFlex",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/Hynetflex.png",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "text": "Android Devices",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/android.png",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "text": "iOS Devices",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/apple_logo.png",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "text": "eSIM & <br>data gadgets",
+        "text2": "The most affordable smartphone money can buy",
+        "img": "./assets/svg/mtn/eSIM.png",
+        "url": ""
+    }
+]

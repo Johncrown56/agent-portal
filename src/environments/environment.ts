@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  eGain: {
+    baseUrl: 'https://mtnnigeria.egain.cloud/',    
+    siteUrl: 'system/ws/v11/ss/',
+    //portalId: '200100000001035', // 
+    portalId: '200100000001034', //production portal id
+    //portalId = "200100000001038"; // test agent portal id
+    usertype: 'customer',
+    articleDir: 'content'
+  }
 };
 
 /*

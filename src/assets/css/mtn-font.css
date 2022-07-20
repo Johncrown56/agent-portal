@@ -1,0 +1,64 @@
+@font-face{
+    font-family:MTNBrighterSans-ExtraLight;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraLight.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraLight.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraLight.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-Light;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Light.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Light.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-Light.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-Regular;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Regular.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Regular.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-RegularItalic;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-RegularItalic.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-RegularItalic.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-RegularItalic.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-Medium;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Medium.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Medium.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-Medium.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-MediumItalic;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-MediumItalic.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-MediumItalic.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-MediumItalic.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-Bold;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Bold.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-Bold.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-Bold.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:MTNBrighterSans-ExtraBold;
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraBold.eot?#iefix);
+    src:url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraBold.eot?#iefix) format("eot"),url(../fonts/MTNBrighterSans/MTNBrighterSans-ExtraBold.woff) format("woff");
+    font-weight:400;
+    font-style:normal
+}
+/* @font-face{
+    font-family:mtn-icon;
+    src:url(../fonts/mtn-icon-font.eot?oe2ypx);
+    src:url(../fonts/mtn-icon-font.eot?oe2ypx#iefix) format("embedded-opentype"),url(../fonts/mtn-icon-font.ttf?oe2ypx) format("truetype"),url(../fonts/mtn-icon-font.woff?oe2ypx) format("woff"),url(../fonts/mtn-icon-font.svg?oe2ypx#mtn-icon)
+    format("svg");
+    font-weight:400;
+    font-style:normal
+} */

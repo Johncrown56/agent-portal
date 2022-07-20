@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "topicId": "",
+        "text": "My Experience <br> Centre",
+        "text2": "My Experience <br> Centre",
+        "img": "./assets/svg/mtn/experience-centre.svg",
+        "url": "./experience-center"
+    },
+    {
+        "id": 2,
+        "topicId": 200100000013653,
+        "text": "MTN <br> Academy",
+        "text2": "The HIP <br> Academy",
+        "img": "./assets/svg/mtn/graduation-cap.svg",
+        "url": ""
+    },
+    {
+        "id": 3,
+        "topicId": 200100000013654,
+        "text": "MTN <br>Tariff Plans",
+        "text2": "MTN <br>Tariff Plans",
+        "img": "./assets/svg/mtn/call.svg",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "topicId": 200100000013655,
+        "text": "Data <br> Plans",
+        "text2": "Data <br> Plans",
+        "img": "./assets/svg/mtn/data-plans.svg",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "topicId": "https://mtnng-prod.voiceweb.eu/bm/demo/web/chatbot/?channel=weblocale&=en&msisdn=&v=5#/chatbot",
+        "text": "Guided <br> Help",
+        "text2": "Guided <br> Help",
+        "img": "./assets/svg/mtn/mtnboticon.png",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "topicId": 200100000013656,
+        "text": "Ugonwa <br>Says...",
+        "text2": "Ugonwa <br>Says...",
+        "img": "./assets/svg/mtn/ugonwa.png",
+        "url": ""
+    }
+]
